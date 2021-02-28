@@ -1,0 +1,61 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black; 
+    text-decoration: underline;
+    text-decoration-color: #ff836d;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    color: #ff836d;
+    justify-content: flex-start;
+
+    height: fit-content;
+    width: 25vw;
+    padding: 50px;
+}
+
+.project:hover {
+    text-decoration: underline;
+}
+
+.index {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.image {
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.category {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.desc {
+    font-size: 18px;
+    color: grey;
+    line-height: 1.5;
+}

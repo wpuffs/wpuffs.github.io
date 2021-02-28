@@ -1,0 +1,47 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    margin-top: -150px;
+}
+
+.header-image {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    margin-bottom: 0px !important;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
+.bulletpoint {
+    margin-left: 40px;
+}
+
+ul.list {
+    list-style-type: circle;
+}
+
+.key-para {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 50px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: auto auto; 
+    row-gap: 20px;
+    justify-items: center;
+}

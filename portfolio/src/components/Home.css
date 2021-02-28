@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+}
+
+.header {
+    font-size: 40px;
+    width: 50vw;
+    padding-bottom: 100px;
+    line-height: 1.5;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    width: fit-content;
+    background-color: #fae1dd;
+}
+
+.container:nth-child(even) {
+    margin-top: 50px;
+}
