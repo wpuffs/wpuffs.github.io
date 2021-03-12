@@ -19,6 +19,8 @@
     
     width: fit-content;
     background-color: #fae1dd;
+    padding: 50px;
+    grid-column-gap: 30px;
 }
 
 .container:nth-child(even) {

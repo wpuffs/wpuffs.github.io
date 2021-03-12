@@ -3,8 +3,9 @@ import Thumbnail from "../components/Thumbnail"
 
 import "./Home.css";
 
-import ufa2 from "../assets/ufa2.png";
+import ufa1 from "../assets/ufa1.png";
 import pca1 from "../assets/pca1.png";
+import survey9 from "../assets/survey9.png";
  
 function Home() {
   return (
@@ -28,7 +29,7 @@ function Home() {
             <Thumbnail 
                 link="/university-finder-app"
                 index="02"
-                image={ufa2}
+                image={ufa1}
                 category="University Project"
                 title="University course comparator mobile app"
                 desc="Developing a university course comparator mobile application for a mobile user experience module"
@@ -37,23 +38,12 @@ function Home() {
 
             <div className="container">
             <Thumbnail 
-                link="/pet-caring-app"
-                index="01"
-                image=""
+                link="/redesign-gv-website"
+                index="03"
+                image={survey9}
                 category="School Project"
-                title="Pet caretaking web app"
-                desc="Developing a pet caretaking web application for a database module"
-                />
-            </div>
-
-            <div className="container">
-            <Thumbnail 
-                link="/pet-caring-app"
-                index="01"
-                image=""
-                category="School Project"
-                title="Pet caretaking web app"
-                desc="Developing a pet caretaking web application for a database module"
+                title="Redesigning Golden Village Website"
+                desc="Redesigning an existing website for a human-computer interaction module"
                 />
             </div>
         </div>

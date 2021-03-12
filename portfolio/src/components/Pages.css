@@ -21,6 +21,12 @@ h2 {
     margin-bottom: 0px !important;
 }
 
+h3 {
+    font-size: 20px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    margin-bottom: 0px !important;
+}
+
 p {
     margin-bottom: 10px;
     line-height: 2;
@@ -44,4 +50,26 @@ ul.list {
     grid-template-columns: auto auto; 
     row-gap: 20px;
     justify-items: center;
+}
+
+table {
+    width: 90%;
+    font-size: 17px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+tr {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+th {
+    background-color: rgba(163, 159, 144, 0.4);
 }

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
-import { Navigation, Home, About, PetCaringApp, UniversityFinderApp } from "./components";
+import { Navigation, Home, About, PetCaringApp, UniversityFinderApp, RedesignGVWebsite } from "./components";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
               <Route exact path="/about" component={About} />
               <Route exact path="/pet-caring-app" component={PetCaringApp} />
               <Route exact path="/university-finder-app" component={UniversityFinderApp} />
+              <Route exact path="/redesign-gv-website" component={RedesignGVWebsite} />
             </Switch>
           </div>
         </Router>

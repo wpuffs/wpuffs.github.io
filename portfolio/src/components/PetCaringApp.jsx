@@ -15,7 +15,7 @@ function PetCaringApp() {
         </div>
         <h1><b>Pet Caring Application</b></h1>
 
-        <h2><b>The problem</b></h2>
+        <h2><b>Background</b></h2>
         <p>
             My group and I were tasked with creating a pet caretaking web application for our database module. 
             Although the main focus was on how we implemented the database and managed the data for our website, 

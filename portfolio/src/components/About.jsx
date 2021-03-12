@@ -23,7 +23,6 @@ function About() {
       </p>
       <div className="navi">
         <p>Find me here:</p>
-        <ul><a href="">Résumé</a></ul>
         <ul><a href="mailto:nad.atiqah@gmail.com">E-mail</a></ul>
         <ul><a href="https://github.com/walnads">Github</a></ul>
         <ul><a href="https://www.behance.net/s101585956439">Behance</a></ul>
