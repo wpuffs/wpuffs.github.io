@@ -41,7 +41,7 @@ function Home() {
                 link="/redesign-gv-website"
                 index="03"
                 image={survey9}
-                category="School Project"
+                category="University Project"
                 title="Redesigning Golden Village Website"
                 desc="Redesigning an existing website for a human-computer interaction module"
                 />
