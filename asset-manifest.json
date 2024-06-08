@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c57c9f6b.css",
+    "main.js": "/static/js/main.430edc29.js",
+    "static/js/488.66abddb0.chunk.js": "/static/js/488.66abddb0.chunk.js",
+    "static/media/pca1.png": "/static/media/pca1.0dc591d69f269a026fa1.png",
+    "static/media/survey9.png": "/static/media/survey9.d4053b82aba8d6f08b30.png",
+    "static/media/catlas1.png": "/static/media/catlas1.d8afbaef3d3933ba2a68.png",
+    "static/media/ufa4.png": "/static/media/ufa4.85388d4049a84d513190.png",
+    "static/media/catlas2.png": "/static/media/catlas2.2448f091bcd4b3c444d5.png",
+    "static/media/ufa3.png": "/static/media/ufa3.cf628af3a09c5e6d1476.png",
+    "static/media/ufa1.png": "/static/media/ufa1.549a3fa6c6ec7f457dd2.png",
+    "static/media/ufa2.png": "/static/media/ufa2.99e26088bb4458a92e9f.png",
+    "static/media/pca2.png": "/static/media/pca2.6428e80572e208273e74.png",
+    "static/media/survey1.png": "/static/media/survey1.7c47f796da5231fbd093.png",
+    "static/media/pca4.png": "/static/media/pca4.f47660218afe737b50a7.png",
+    "static/media/pca6.png": "/static/media/pca6.54ce36795490afb3b2c1.png",
+    "static/media/pca3.png": "/static/media/pca3.abf72d46df4b087e9328.png",
+    "static/media/pca5.png": "/static/media/pca5.e60f47fdd2dff19f7684.png",
+    "index.html": "/index.html",
+    "main.c57c9f6b.css.map": "/static/css/main.c57c9f6b.css.map",
+    "main.430edc29.js.map": "/static/js/main.430edc29.js.map",
+    "488.66abddb0.chunk.js.map": "/static/js/488.66abddb0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c57c9f6b.css",
+    "static/js/main.430edc29.js"
+  ]
+}
