@@ -30,7 +30,7 @@ function Home() {
             <div className="container">
             <Thumbnail 
                 link="/pet-caring-app"
-                index="01"
+                index="02"
                 image={pca1}
                 category="University Project"
                 title="Pet caretaking web app"
@@ -41,7 +41,7 @@ function Home() {
             <div className="container">
             <Thumbnail 
                 link="/university-finder-app"
-                index="02"
+                index="03"
                 image={ufa1}
                 category="University Project"
                 title="University course comparator mobile app"
@@ -52,7 +52,7 @@ function Home() {
             <div className="container">
             <Thumbnail 
                 link="/redesign-gv-website"
-                index="03"
+                index="04"
                 image={survey9}
                 category="University Project"
                 title="Redesigning Golden Village Website"
