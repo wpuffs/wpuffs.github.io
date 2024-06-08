@@ -3,6 +3,7 @@ import Thumbnail from "../components/Thumbnail"
 
 import "./Home.css";
 
+import catlas1 from "../assets/catlas1.png";
 import ufa1 from "../assets/ufa1.png";
 import pca1 from "../assets/pca1.png";
 import survey9 from "../assets/survey9.png";
@@ -10,11 +11,23 @@ import survey9 from "../assets/survey9.png";
 function Home() {
   return (
     <div className="main">
-        <div className="header">Nadia is an Computer Science undergraduate, aspiring for 
-        a career in User Experience.</div>
+        <div className="header">Nadia is a Computer Science graduate with a year of
+        business analyst & developer experience, 
+        is now aspiring to pursue a career in User Experience.</div>
         
         <div className="projects">
           <div className="container">
+          <Thumbnail 
+                link="/catlas"
+                index="01"
+                image={catlas1}
+                category="University Project"
+                title="Community cat tracking app"
+                desc="Won 3rd Prize in Huawei Future Interaction Design Award. Designed an app to track community cats"
+                />
+            </div>
+            
+            <div className="container">
             <Thumbnail 
                 link="/pet-caring-app"
                 index="01"
