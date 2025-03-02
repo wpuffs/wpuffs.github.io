@@ -1,7 +1,6 @@
 .main {
     display: flex;
     flex-direction: column;
-    margin-top: -100px;
 }
 
 .header {
@@ -16,13 +15,17 @@
 .projects {
     display: grid;
     grid-template-columns: auto auto;
-    
     width: fit-content;
     background-color: #fae1dd;
     padding: 50px;
     grid-column-gap: 30px;
 }
 
-.container:nth-child(even) {
+.project-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-container:nth-child(even) {
     margin-top: 50px;
 }

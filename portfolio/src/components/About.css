@@ -1,11 +1,10 @@
 .page {
     display: flex;
     flex-direction: column;
-    margin-top: -100px !important;
 }
 
 .header {
-    font-size: 40px;
+    font-size: 35px;
     font-style: italic;
     font-weight: 700;
     width: 50vw;
