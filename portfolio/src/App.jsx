@@ -6,12 +6,14 @@ import { Navigation, Home, About, PetCaringApp, UniversityFinderApp, RedesignGVW
 
 import CatlasApp from './components/CatlasApp';
 import ERApp from './components/ERApp';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="app">
       <div className="container">
         <Router>
+          <ScrollToTop />
           <div className="nav-container">
             <Navigation />
           </div>
